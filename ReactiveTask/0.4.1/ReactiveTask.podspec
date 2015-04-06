@@ -18,6 +18,6 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/Carthage/ReactiveTask.git", :tag => "0.4.1" }
   s.source_files = "ReactiveTask", "ReactiveTask/**/*.{h,m}"
   s.requires_arc = true
-	s.dependency "ReactiveCocoa", "3.0.0.beta.3"
+	s.dependency "ReactiveCocoa", "3.0.0.alpha.3"
 	s.dependency "LlamaKit", "0.6.0"
 end
